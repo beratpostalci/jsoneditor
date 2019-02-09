@@ -179,7 +179,7 @@ var _defs = {
       'mas sempre retornara um texto.'
   },
   tr: {
-    array: 'Dizin',
+    array: 'Dizi',
     auto: 'Otomatik',
     appendText: 'Ekle',
     appendTitle: 'Bu alanın altına \'otomatik\' tipinde yeni bir alan ekle (Ctrl+Shift+Ins)',
@@ -191,7 +191,6 @@ var _defs = {
     collapseAll: 'Tüm alanları kapat',
     descending: 'Azalan',
     descendingTitle: '${type}\'ın alt tiplerini azalan düzende sırala',
-    drag: 'Drag to move this field (Alt+Shift+Arrows)',
     drag: 'Bu alanı taşımak için sürükleyin (Alt+Shift+Arrows)',
     duplicateKey: 'Var olan anahtar',
     duplicateText: 'Aşağıya kopyala',
@@ -213,10 +212,8 @@ var _defs = {
     selectNode: 'Bir nesne seç...',
     showAll: 'tümünü göster',
     showMore: 'daha fazla göster',
-    showMoreStatus: 'displaying ${visibleChilds} of ${totalChilds} items.',
     showMoreStatus: '${totalChilds} alanın ${visibleChilds} alt alanları gösteriliyor',
     sort: 'Sırala',
-    sortTitle: 'Sort the childs of this ${type}',
     sortTitle: '${type}\'ın alt alanlarını sırala',
     sortTitleShort: 'İçerikleri sırala',
     sortFieldLabel: 'Alan:',
@@ -228,7 +225,6 @@ var _defs = {
     sortDescendingTitle: 'Seçili alanı azalan düzende sırala',
     string: 'Karakter Dizisi',
     transform: 'Dönüştür',
-    transformTitle: 'Filter, sort, or transform the childs of this ${type}',
     transformTitle: '${type}\'ın alt alanlarını filtrele, sırala veya dönüştür',
     transformTitleShort: 'İçerikleri filterele, sırala veya dönüştür',
     transformQueryTitle: 'JMESPath sorgusu gir',
@@ -242,7 +238,6 @@ var _defs = {
     typeTitle: 'Bu alanın tipini değiştir',
     openUrl: 'URL\'i yeni bir pencerede açmak için Ctrl+Click veya Ctrl+Enter',
     undo: 'Son değişikliği geri al (Ctrl+Z)',
-    validationCannotMove: 'Cannot move a field into a child of itself',
     validationCannotMove: 'Alt alan olarak taşınamıyor',
     autoType: 'Alan tipi "otomatik". ' +
       'Alan türü otomatik olarak değerden belirlenir' +
@@ -252,7 +247,7 @@ var _defs = {
     arrayType: 'Alan tipi "dizi". ' +
       'Bir dizi, düzenli değerler koleksiyonu içerir.',
     stringType: 'Alan tipi "karakter dizisi". ' +
-      'Alan türü değerden belirlenmez,' +
+      'Alan türü değerden belirlenmez, ' +
       'ancak her zaman karakter dizisi olarak döndürülür.',
     modeCodeText: 'Kod',
     modeCodeTitle: 'Kod vurgulayıcıya geç',
